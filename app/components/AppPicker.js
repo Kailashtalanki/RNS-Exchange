@@ -1,11 +1,16 @@
 import React, { useState } from "react";
-import { View, Modal, Button, FlatList } from "react-native";
+import {
+  View,
+  Modal,
+  Button,
+  FlatList,
+  TouchableWithoutFeedback,
+  StyleSheet,
+} from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { StyleSheet } from "react-native";
 
 import defaultStyles from "../config/styles";
 import AppText from "./AppText";
-import { TouchableWithoutFeedback } from "react-native";
 import Screen from "./Screen";
 import PickerItem from "./PickerItem";
 
@@ -55,6 +60,7 @@ function AppPicker({
             renderItem={({ item }) => (
               <PickerItemComponent
                 item={item}
+                label={item.label}
                 onPress={() => {
                   setModalVisible(false);
                   onSelectItem(item);
