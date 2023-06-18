@@ -22,3 +22,7 @@ To run the app locally and contribute to its development, follow these steps:
 1. Clone the repository: `git clone [repository_url]`
 2. Install the necessary dependencies: `npm install`
 3. Start the development server: `npm start`
+
+# Screenshots
+![Screenshot-1](Screenshot.png)
+
