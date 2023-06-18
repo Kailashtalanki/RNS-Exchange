@@ -24,5 +24,5 @@ To run the app locally and contribute to its development, follow these steps:
 3. Start the development server: `npm start`
 
 # Screenshots
-![Screenshot-1](Screenshot.png)
+![Screenshot-1](./Screenshot1.png)
 
