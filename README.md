@@ -19,7 +19,7 @@ To overcome the limitations of existing solutions, the proposed system is an app
 
 To run the app locally and contribute to its development, follow these steps:
 
-1. Clone the repository: `git clone [repository_url]`
+1. Clone the repository: `git clone https://github.com/Kailashtalanki/RNS-Exchange.git`
 2. Install the necessary dependencies: `npm install`
 3. Start the development server: `npm start`
 
